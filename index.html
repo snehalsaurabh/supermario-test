@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mario Test</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <button id="start-btn">Start</button>
+    <div id="game-container">
+      <audio id = "background-music" src="./assets/background-music.mp3" loop></audio>
+      <audio id = "jump-sound" src="./assets/jump/mp3"></audio>
+      <div id="game-over">
+        <h1>Game Over</h1>
+        <p>Your score is: <span id="final-score">0</span></p>
+        <button id="restart-btn">Restart</button>
+      </div>
+      <div id="score"></div>
+      <img id="mario" src="./assets/mario.gif"/>
+      <img id="pipe" class="obstacle" src="./assets/pipe.png"/>
+      <img id="mushroom" class="obstacle" src="./assets/mushroom.png"/>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  </html>
